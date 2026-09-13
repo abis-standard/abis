@@ -1,0 +1,36 @@
+# ABIS Public v0.1 — File Allowlist
+# Default rule: UNKNOWN = NOT PUBLIC
+
+version: "0.1"
+updated: "2026-09-13"
+repository: abis-standard/abis
+release: public-v0.1
+
+default_rule: UNKNOWN_NOT_PUBLIC
+
+allowed_paths:
+  - README.md
+  - CONCEPT.md
+  - SCOPE.md
+  - ARCHITECTURE.md
+  - TERMINOLOGY.md
+  - GOVERNANCE.md
+  - ROADMAP.md
+  - docs/**
+  - assets/**
+  - assets/abis-logo.png
+  - .github/CONTRIBUTING.md
+  - .github/workflows/disclosure-gate.yml
+  - public-allowlist.yml
+  - NOTICE
+
+# Local-only files (must NOT be committed to the public repository)
+local_only_paths:
+  - BUILD_REPORT.md
+  - PUBLIC_RELEASE_MANIFEST.txt
+  - LOCAL_DISCLOSURE_POLICY.yml
+
+notes:
+  - LICENSE is intentionally omitted pending final review.
+  - Local release-engineering records must not be committed.
+  - Detailed disclosure policy for maintainers is stored locally only.

@@ -1,0 +1,72 @@
+name: Disclosure Gate
+
+on:
+  pull_request:
+    branches: [main, master]
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  disclosure-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run public safety scan
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "=== ABIS Public Safety Scan ==="
+
+          mapfile -t FILES < <(find . -type f \
+            ! -path './.git/*' \
+            \( -name '*.md' -o -name '*.yml' -o -name '*.yaml' -o -name '*.txt' -o -name 'NOTICE' \) \
+            | sort)
+
+          FAIL=0
+          MATCHES=""
+
+          # Generic public safety patterns only (no private nomenclature)
+          PATTERNS=(
+            '/Users/'
+            'C:\\Users\\'
+            'PRIVATE_MASTER'
+            'INTERNAL_ONLY'
+            'BEGIN RSA PRIVATE KEY'
+            'BEGIN OPENSSH PRIVATE KEY'
+            'AKIA[0-9A-Z]'
+            'ghp_[A-Za-z0-9]'
+            'xox[baprs]-'
+          )
+
+          for file in "${FILES[@]}"; do
+            case "$file" in
+              ./.github/workflows/disclosure-gate.yml)
+                continue
+                ;;
+            esac
+
+            for pattern in "${PATTERNS[@]}"; do
+              if [[ "$pattern" == AKIA* ]] || [[ "$pattern" == ghp_* ]] || [[ "$pattern" == xox* ]]; then
+                if grep -qE "$pattern" "$file" 2>/dev/null; then
+                  FAIL=1
+                  MATCHES+="MATCH: sensitive credential pattern in $file\n"
+                fi
+              elif grep -qF "$pattern" "$file" 2>/dev/null; then
+                FAIL=1
+                MATCHES+="MATCH: unsafe pattern in $file\n"
+              fi
+            done
+          done
+
+          echo ""
+          if [[ $FAIL -eq 1 ]]; then
+            echo -e "$MATCHES"
+            echo "PUBLIC SAFETY SCAN: FAILED"
+            exit 1
+          fi
+
+          echo "PUBLIC SAFETY SCAN: PASSED"

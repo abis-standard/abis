@@ -8,9 +8,21 @@
 
 **Beyond Zero Click.**
 
+**From technical execution to business outcome.**
+
 **Public v0.1 — Concept & Architecture Release**
 
-This release is non-normative and is intended for public review and industry feedback.
+**Status:** Public / Non-Normative / Open for Review
+
+Public v0.1 is a Concept & Architecture Release. This release is intended for public review and industry feedback.
+
+## Official Resources
+
+- Official Website: https://abis.coaretail.com
+- Japanese: https://abis.coaretail.com/ja
+- English: https://abis.coaretail.com/en
+- Public Specification: https://github.com/abis-standard/abis
+- Validation / Contact: https://abis.coaretail.com/ja#contact
 
 ---
 
@@ -90,7 +102,7 @@ Each interaction may produce its own Business Outcome. ABIS is designed to suppo
 
 ## Where ABIS Fits
 
-ABIS sits above execution and transport layers. It is designed to describe business interaction and business outcome semantics across:
+ABIS complements execution and transport technologies by focusing on the business meaning of interactions and their outcomes. It is designed to describe business interaction and business outcome semantics across:
 
 - different AI agents
 - different protocols (for example MCP, A2A, REST APIs, and checkout-oriented protocols)
@@ -119,11 +131,13 @@ ABIS does not claim ownership of those concerns. It aims to complement existing 
 
 ## Status — Public v0.1
 
+**Status:** Public / Non-Normative / Open for Review
+
 This repository is the **public concept and architecture release** for ABIS v0.1.
 
 | Item | Status |
 | --- | --- |
-| Release | Public v0.1 — concept and architecture |
+| Release | Public v0.1 — Concept & Architecture Release |
 | Normative specifications | Not included in this repository |
 | Certification | Not available in v0.1 |
 | Reference implementation | Not included |

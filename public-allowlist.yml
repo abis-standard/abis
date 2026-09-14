@@ -31,6 +31,6 @@ local_only_paths:
   - LOCAL_DISCLOSURE_POLICY.yml
 
 notes:
-  - LICENSE is intentionally omitted pending final review.
+  - No open-source software license is granted by Public v0.1; see NOTICE.
   - Local release-engineering records must not be committed.
   - Detailed disclosure policy for maintainers is stored locally only.

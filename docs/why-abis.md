@@ -33,7 +33,7 @@ ABIS is designed to provide a common way to represent:
 - **Business Interaction** — what business activity is being attempted
 - **Business Outcome** — what was intended and what was observed in business terms
 
-ABIS aims to sit above execution layers and complement existing protocols — not replace them.
+ABIS complements execution and transport technologies by focusing on the business meaning of interactions and their outcomes. It is designed to complement existing protocols — not replace them.
 
 ---
 

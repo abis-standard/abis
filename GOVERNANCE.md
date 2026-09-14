@@ -48,6 +48,8 @@ Contributors may:
 
 Contributors should not assume that feedback will be automatically merged into core documents.
 
+ABIS is intended to evolve through validation with companies, organizations, developers, researchers, and public-sector participants. It is not intended to be completed by CoaRetail alone.
+
 ### Future phases
 
 Future public releases may include:
@@ -88,9 +90,9 @@ When evaluating public changes, maintainers aim to:
 
 ---
 
-## 6. Licensing
+## 6. Availability and rights
 
-License policy for this repository is **pending final review**. No license file is included in this public v0.1 release. See [NOTICE](NOTICE).
+ABIS Public v0.1 is published for public review and validation. No separate open-source software license is granted by this release. Rights and restrictions are described in [NOTICE](NOTICE).
 
 ---
 

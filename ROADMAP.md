@@ -26,6 +26,23 @@ This roadmap describes **planned public evolution**. Dates and deliverables are 
 
 ---
 
+## Validation and Adoption Path
+
+ABIS is intended to evolve through real-world validation rather than through declaration alone.
+
+```text
+Public Concept
+    → Industry Validation
+    → Multi-company PoC
+    → Interoperability Validation
+    → Specification Evolution
+    → De Facto Adoption
+```
+
+De Facto Adoption represents a possible future stage that would depend on practical use, validation, and adoption across multiple organizations and systems. It is not the current status of ABIS Public v0.1.
+
+---
+
 ## v0.2 — Public specification foundation (planned)
 
 | Planned area | Description |
@@ -59,6 +76,19 @@ Subject to disclosure review before publication.
 | Industry profiles | Domain-specific public guidance (hospitality, commerce, government) |
 | Conformance program | Public conformance concepts — details not defined in v0.1 |
 | Reference examples | Illustrative, non-authoritative examples |
+
+---
+
+## Long-Term Vision
+
+Following meaningful real-world adoption, future exploration may include:
+
+```text
+Global Validation
+    → International Standardization
+```
+
+This is a long-term aspiration. ABIS Public v0.1 is not an international standard, and no formal international standardization status is implied by this roadmap.
 
 ---
 

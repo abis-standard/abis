@@ -22,7 +22,8 @@ Public v0.1 is a Concept & Architecture Release. This release is intended for pu
 - Japanese: https://abis.coaretail.com/ja
 - English: https://abis.coaretail.com/en
 - Public Specification: https://github.com/abis-standard/abis
-- Validation / Contact: https://abis.coaretail.com/ja#contact
+- Reference Runtime: https://github.com/abis-standard/abis-reference-runtime
+- Validation: https://abis.coaretail.com/ja/validation
 
 ---
 
@@ -140,7 +141,7 @@ This repository is the **public concept and architecture release** for ABIS v0.1
 | Release | Public v0.1 — Concept & Architecture Release |
 | Normative specifications | Not included in this repository |
 | Certification | Not available in v0.1 |
-| Reference implementation | Not included |
+| Reference implementation | Not included in this repository — see [ABIS Reference Runtime](https://github.com/abis-standard/abis-reference-runtime) |
 
 Feedback is welcome through Issues and the contribution guidelines. Normative or core changes require maintainer review.
 

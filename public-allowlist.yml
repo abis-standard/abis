@@ -21,8 +21,11 @@ allowed_paths:
   - assets/abis-logo.png
   - .github/CONTRIBUTING.md
   - .github/workflows/disclosure-gate.yml
+  - .github/workflows/release-disclosure-gate.yml
   - public-allowlist.yml
   - NOTICE
+  - scripts/disclosure/**
+  - .abis/disclosure-approval.json
 
 # Local-only files (must NOT be committed to the public repository)
 local_only_paths:

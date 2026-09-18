@@ -1,0 +1,451 @@
+{
+  "generated_at": "2026-09-18T12:47:50Z",
+  "derivatives": [
+    {
+      "source_artifact": "validation-evidence/M238/EXECUTION-EVIDENCE-MATRIX.json",
+      "source_sha256": "47560850f777c600ea89dab1e3db715318e2ffbb5241f8d8ce081098e4169288",
+      "redaction_reason": "M-238 execution matrix",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/EXECUTION-EVIDENCE-MATRIX.json",
+      "derivative_sha256": "47560850f777c600ea89dab1e3db715318e2ffbb5241f8d8ce081098e4169288"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/VALIDATOR-LEDGER.json",
+      "source_sha256": "6ac31a263da9649aa1b0fee948cf786aaa5ed21a9f910cc286fbd52538858aa8",
+      "redaction_reason": "M-238 validator ledger",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/VALIDATOR-LEDGER.json",
+      "derivative_sha256": "6ac31a263da9649aa1b0fee948cf786aaa5ed21a9f910cc286fbd52538858aa8"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/CROSS-VALIDATOR-SYNTHESIS.md",
+      "source_sha256": "f3cca03187e2a09c46ea8ac0c2e8501a85b486673c0f7e782f8d66eaa5e80862",
+      "redaction_reason": "M-238 synthesis",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/CROSS-VALIDATOR-SYNTHESIS.md",
+      "derivative_sha256": "f3cca03187e2a09c46ea8ac0c2e8501a85b486673c0f7e782f8d66eaa5e80862"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/NORMALIZED-FINDINGS.json",
+      "source_sha256": "da92e6c55497bdc0b4b80f7ec206bf5cbec51962318d63126eb73ecc16eda7ff",
+      "redaction_reason": "M-238 findings",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/NORMALIZED-FINDINGS.json",
+      "derivative_sha256": "da92e6c55497bdc0b4b80f7ec206bf5cbec51962318d63126eb73ecc16eda7ff"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/V1-openai/EVIDENCE-REPORT.md",
+      "source_sha256": "f1e744770a217561ceb5d4405df2a8b6990e4ee938f0f82d1561a1e4ca6eba18",
+      "redaction_reason": "M-238 V1-openai report",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/V1-openai/EVIDENCE-REPORT.md",
+      "derivative_sha256": "f1e744770a217561ceb5d4405df2a8b6990e4ee938f0f82d1561a1e4ca6eba18"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/V1-openai/raw/tv_results.json",
+      "source_sha256": "36bbcc40852b642c3c00236513fbef5c1aabc1e4fd01a9b3f688e497bcbab2fa",
+      "redaction_reason": "M-238 V1-openai TV results",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/V1-openai/tv_results.json",
+      "derivative_sha256": "36bbcc40852b642c3c00236513fbef5c1aabc1e4fd01a9b3f688e497bcbab2fa"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/V1-openai/raw/environment_metadata.json",
+      "source_sha256": "765a9699645ace7848e62a4e9f963c66c4e2be912479d3add305da1a65a2b02b",
+      "redaction_reason": "M-238 V1-openai environment metadata redaction",
+      "redactions_applied": [
+        "harness path generalized",
+        "package_path generalized",
+        "execution_environment generalized"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/V1-openai/environment_metadata.json",
+      "derivative_sha256": "5cb91c50a366dd03a6d7fdeb0c917af66d620250d17578dcb5af247ced0a53e3"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/V1-openai/raw/hash_verification.json",
+      "source_sha256": "ecdc66d3e70336cdd1d90d21f2516b2bb1bff0b3aae4cffa39e7ff5ab35dcb2a",
+      "redaction_reason": "M-238 V1-openai hash verification",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/V1-openai/hash_verification.json",
+      "derivative_sha256": "ecdc66d3e70336cdd1d90d21f2516b2bb1bff0b3aae4cffa39e7ff5ab35dcb2a"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/V2-anthropic/EVIDENCE-REPORT.md",
+      "source_sha256": "3048d74dfbf8c7c6e209377ae939cceb3272b8449dba48acd7dfd0689bbf223c",
+      "redaction_reason": "M-238 V2-anthropic report",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/V2-anthropic/EVIDENCE-REPORT.md",
+      "derivative_sha256": "3048d74dfbf8c7c6e209377ae939cceb3272b8449dba48acd7dfd0689bbf223c"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/V2-anthropic/raw/tv_results.json",
+      "source_sha256": "36bbcc40852b642c3c00236513fbef5c1aabc1e4fd01a9b3f688e497bcbab2fa",
+      "redaction_reason": "M-238 V2-anthropic TV results",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/V2-anthropic/tv_results.json",
+      "derivative_sha256": "36bbcc40852b642c3c00236513fbef5c1aabc1e4fd01a9b3f688e497bcbab2fa"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/V2-anthropic/raw/environment_metadata.json",
+      "source_sha256": "89b5a3b0e71a93d6fe0e0199c8df8ab9f445eb375339d6b9442bf82ded407acc",
+      "redaction_reason": "M-238 V2-anthropic environment metadata redaction",
+      "redactions_applied": [
+        "harness path generalized",
+        "package_path generalized",
+        "execution_environment generalized"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/V2-anthropic/environment_metadata.json",
+      "derivative_sha256": "d7becc7dcc2bd5a4456bfacd65c093f700d22ec3155091ab3eec3ebdd3c6b9f3"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/V2-anthropic/raw/hash_verification.json",
+      "source_sha256": "ecdc66d3e70336cdd1d90d21f2516b2bb1bff0b3aae4cffa39e7ff5ab35dcb2a",
+      "redaction_reason": "M-238 V2-anthropic hash verification",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/V2-anthropic/hash_verification.json",
+      "derivative_sha256": "ecdc66d3e70336cdd1d90d21f2516b2bb1bff0b3aae4cffa39e7ff5ab35dcb2a"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/V3-xai/EVIDENCE-REPORT.md",
+      "source_sha256": "054280d74a72fd8792d2076837238c168d5e57f47aaf565580090a92917b9645",
+      "redaction_reason": "M-238 V3-xai report",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/V3-xai/EVIDENCE-REPORT.md",
+      "derivative_sha256": "054280d74a72fd8792d2076837238c168d5e57f47aaf565580090a92917b9645"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/V3-xai/raw/tv_results.json",
+      "source_sha256": "36bbcc40852b642c3c00236513fbef5c1aabc1e4fd01a9b3f688e497bcbab2fa",
+      "redaction_reason": "M-238 V3-xai TV results",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/V3-xai/tv_results.json",
+      "derivative_sha256": "36bbcc40852b642c3c00236513fbef5c1aabc1e4fd01a9b3f688e497bcbab2fa"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/V3-xai/raw/environment_metadata.json",
+      "source_sha256": "267742874622185a4963a6594290786c970f9f94205f6b7684f728c81788157d",
+      "redaction_reason": "M-238 V3-xai environment metadata redaction",
+      "redactions_applied": [
+        "harness path generalized",
+        "package_path generalized",
+        "execution_environment generalized"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/V3-xai/environment_metadata.json",
+      "derivative_sha256": "0896d47b0ef24d0719837a8f330a54292bac968dccdb0ea7e7ee533b79444d1d"
+    },
+    {
+      "source_artifact": "validation-evidence/M238/V3-xai/raw/hash_verification.json",
+      "source_sha256": "ecdc66d3e70336cdd1d90d21f2516b2bb1bff0b3aae4cffa39e7ff5ab35dcb2a",
+      "redaction_reason": "M-238 V3-xai hash verification",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m238/V3-xai/hash_verification.json",
+      "derivative_sha256": "ecdc66d3e70336cdd1d90d21f2516b2bb1bff0b3aae4cffa39e7ff5ab35dcb2a"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/SLIT001R-EXECUTION-SUMMARY.json",
+      "source_sha256": "7824f14eb8b4282c9b4b219745d637795d0bb65d5135e548a8cb9baf815d5962",
+      "redaction_reason": "M-240 public-safe summary artifact",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/SLIT001R-EXECUTION-SUMMARY.json",
+      "derivative_sha256": "7824f14eb8b4282c9b4b219745d637795d0bb65d5135e548a8cb9baf815d5962"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/SLIT001R-DIRECTIONAL-MATRIX.json",
+      "source_sha256": "29daf727cba536c018e37924c12bab24c17b989e975c350e5c565c6a2c43d199",
+      "redaction_reason": "M-240 public-safe summary artifact",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/SLIT001R-DIRECTIONAL-MATRIX.json",
+      "derivative_sha256": "29daf727cba536c018e37924c12bab24c17b989e975c350e5c565c6a2c43d199"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/E4-REQUIREMENT-MATRIX.json",
+      "source_sha256": "0bafac56635e7b21e5dd80fb21b7703fe3a6b5d7fcd36ab99df4e996b202a013",
+      "redaction_reason": "M-240 public-safe summary artifact",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/E4-REQUIREMENT-MATRIX.json",
+      "derivative_sha256": "0bafac56635e7b21e5dd80fb21b7703fe3a6b5d7fcd36ab99df4e996b202a013"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/LIVE-FINDINGS.json",
+      "source_sha256": "635adc559eda778ed386a55aedbe8bfefa863d0c05e0571874b4af98ae8b87b5",
+      "redaction_reason": "M-240 public-safe summary artifact",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/LIVE-FINDINGS.json",
+      "derivative_sha256": "635adc559eda778ed386a55aedbe8bfefa863d0c05e0571874b4af98ae8b87b5"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/1/A_to_B/M240-1-A_to_B-001/exchange.json",
+      "source_sha256": "296dca0509c87b1a3df607b5aed239635fd66a59df20a47fe1fecc91e817dc19",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/1/A_to_B/M240-1-A_to_B-001/exchange.json",
+      "derivative_sha256": "296dca0509c87b1a3df607b5aed239635fd66a59df20a47fe1fecc91e817dc19"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/1/B_to_A/M240-1-B_to_A-001/exchange.json",
+      "source_sha256": "637e748ddef419575d2e3dccc166aad4bab554e17072d575449a3a946dcedf04",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/1/B_to_A/M240-1-B_to_A-001/exchange.json",
+      "derivative_sha256": "637e748ddef419575d2e3dccc166aad4bab554e17072d575449a3a946dcedf04"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/10/A_to_B/M240-10-A_to_B-011/exchange.json",
+      "source_sha256": "47292b35ec59d7a69073cecb366df361948eef650deb8bb87a23bedff1e59b09",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/10/A_to_B/M240-10-A_to_B-011/exchange.json",
+      "derivative_sha256": "47292b35ec59d7a69073cecb366df361948eef650deb8bb87a23bedff1e59b09"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/10/B_to_A/M240-10-B_to_A-011/exchange.json",
+      "source_sha256": "71b4a678a53dd16f5e3be945e5784bfebdcd08f71a712d20dba281c9c28e933d",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/10/B_to_A/M240-10-B_to_A-011/exchange.json",
+      "derivative_sha256": "71b4a678a53dd16f5e3be945e5784bfebdcd08f71a712d20dba281c9c28e933d"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/11/A_to_B/M240-11-A_to_B-012/exchange.json",
+      "source_sha256": "b76370e245c9e00f226d16646eb47109b3e94535cc345ba5dbe00fa14c8c779a",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/11/A_to_B/M240-11-A_to_B-012/exchange.json",
+      "derivative_sha256": "b76370e245c9e00f226d16646eb47109b3e94535cc345ba5dbe00fa14c8c779a"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/11/B_to_A/M240-11-B_to_A-012/exchange.json",
+      "source_sha256": "ed38b6c9586794f84f04941fef00dba8a51699f6e81392f6769251badf9aaef1",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/11/B_to_A/M240-11-B_to_A-012/exchange.json",
+      "derivative_sha256": "ed38b6c9586794f84f04941fef00dba8a51699f6e81392f6769251badf9aaef1"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/2/A_to_B/M240-2-A_to_B-002/exchange.json",
+      "source_sha256": "8a936f6d57f571e9bc8dc7c0358297dabc592dc10ea38ce3bdeeca88a134968b",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/2/A_to_B/M240-2-A_to_B-002/exchange.json",
+      "derivative_sha256": "8a936f6d57f571e9bc8dc7c0358297dabc592dc10ea38ce3bdeeca88a134968b"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/2/B_to_A/M240-2-B_to_A-002/exchange.json",
+      "source_sha256": "59a243a1fb2938bbdf291b1a597bbaf948adee24a12dc63f9187e465ba87868a",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/2/B_to_A/M240-2-B_to_A-002/exchange.json",
+      "derivative_sha256": "59a243a1fb2938bbdf291b1a597bbaf948adee24a12dc63f9187e465ba87868a"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/3/A_to_B/M240-3-A_to_B-003/exchange.json",
+      "source_sha256": "46dbcafd9efcc0d0cb861e4c8c6a4ed643318a0c3708bdd3a9d9eba54beffad1",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/3/A_to_B/M240-3-A_to_B-003/exchange.json",
+      "derivative_sha256": "46dbcafd9efcc0d0cb861e4c8c6a4ed643318a0c3708bdd3a9d9eba54beffad1"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/3/B_to_A/M240-3-B_to_A-003/exchange.json",
+      "source_sha256": "9f8908dd50bcbd537d5431e4a5a540b8ced11b9ce14b43fbed97ecc34177c537",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/3/B_to_A/M240-3-B_to_A-003/exchange.json",
+      "derivative_sha256": "9f8908dd50bcbd537d5431e4a5a540b8ced11b9ce14b43fbed97ecc34177c537"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/4/A_to_B/M240-4-A_to_B-004/exchange.json",
+      "source_sha256": "106822a76d86d6afccb7465fe2158085ded97168b8815da0d1534d9de10da86f",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/4/A_to_B/M240-4-A_to_B-004/exchange.json",
+      "derivative_sha256": "106822a76d86d6afccb7465fe2158085ded97168b8815da0d1534d9de10da86f"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/4/B_to_A/M240-4-B_to_A-004/exchange.json",
+      "source_sha256": "4c2b64568768dab68696c643e644612fc2883d653cd5cb280634ab1350a382f8",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/4/B_to_A/M240-4-B_to_A-004/exchange.json",
+      "derivative_sha256": "4c2b64568768dab68696c643e644612fc2883d653cd5cb280634ab1350a382f8"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/5/A_to_B/M240-5-A_to_B-005/exchange.json",
+      "source_sha256": "44b4984415d780adc49a427bac650ce98ab4a2f0c09d3aec7255d53305a3e8a4",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/5/A_to_B/M240-5-A_to_B-005/exchange.json",
+      "derivative_sha256": "44b4984415d780adc49a427bac650ce98ab4a2f0c09d3aec7255d53305a3e8a4"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/5/B_to_A/M240-5-B_to_A-005/exchange.json",
+      "source_sha256": "1d2b4f4416d0018b81c4275876d240dffa05d19b7f5e869dd41a6feafbf03a66",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/5/B_to_A/M240-5-B_to_A-005/exchange.json",
+      "derivative_sha256": "1d2b4f4416d0018b81c4275876d240dffa05d19b7f5e869dd41a6feafbf03a66"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/5b/A_to_B/M240-5b-A_to_B-006/exchange.json",
+      "source_sha256": "68da67c18fea7a3ae8c704281caf33cf57135e2bed9852d51860e979cec6b74f",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/5b/A_to_B/M240-5b-A_to_B-006/exchange.json",
+      "derivative_sha256": "68da67c18fea7a3ae8c704281caf33cf57135e2bed9852d51860e979cec6b74f"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/5b/B_to_A/M240-5b-B_to_A-006/exchange.json",
+      "source_sha256": "2b320b4a1bfc3aee03db88c54b8a0fe06da4868f203462d796562fb459c66a42",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/5b/B_to_A/M240-5b-B_to_A-006/exchange.json",
+      "derivative_sha256": "2b320b4a1bfc3aee03db88c54b8a0fe06da4868f203462d796562fb459c66a42"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/6/A_to_B/M240-6-A_to_B-007/exchange.json",
+      "source_sha256": "972456dca533da51314e17893faeea0a591ebb37e2a243f6806e93cebd3d3054",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/6/A_to_B/M240-6-A_to_B-007/exchange.json",
+      "derivative_sha256": "972456dca533da51314e17893faeea0a591ebb37e2a243f6806e93cebd3d3054"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/6/B_to_A/M240-6-B_to_A-007/exchange.json",
+      "source_sha256": "5b722545ad4350aef97bf8787f042fa61b47bfa1786e970b2242137dd49335e9",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/6/B_to_A/M240-6-B_to_A-007/exchange.json",
+      "derivative_sha256": "5b722545ad4350aef97bf8787f042fa61b47bfa1786e970b2242137dd49335e9"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/7/A_to_B/M240-7-A_to_B-008/exchange.json",
+      "source_sha256": "0f3c68cf7aed7cfaa94817270e38d2d0ddf029d0a949bdd1cdce90d574c1f112",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/7/A_to_B/M240-7-A_to_B-008/exchange.json",
+      "derivative_sha256": "0f3c68cf7aed7cfaa94817270e38d2d0ddf029d0a949bdd1cdce90d574c1f112"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/7/B_to_A/M240-7-B_to_A-008/exchange.json",
+      "source_sha256": "4991395e7c2778a2593c4195827d3b6097d167b3b36562d89adde2a662c413f6",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/7/B_to_A/M240-7-B_to_A-008/exchange.json",
+      "derivative_sha256": "4991395e7c2778a2593c4195827d3b6097d167b3b36562d89adde2a662c413f6"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/8/A_to_B/M240-8-A_to_B-009/exchange.json",
+      "source_sha256": "ad7428cbfeae3bda15ef712a2b01daf072a870c5e0d4530eeef94d072fe5ecc5",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/8/A_to_B/M240-8-A_to_B-009/exchange.json",
+      "derivative_sha256": "ad7428cbfeae3bda15ef712a2b01daf072a870c5e0d4530eeef94d072fe5ecc5"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/8/B_to_A/M240-8-B_to_A-009/exchange.json",
+      "source_sha256": "955028c1d379177ace998f5d468b814c79118963a8170b2e66630e2eaca25835",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/8/B_to_A/M240-8-B_to_A-009/exchange.json",
+      "derivative_sha256": "955028c1d379177ace998f5d468b814c79118963a8170b2e66630e2eaca25835"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/9/A_to_B/M240-9-A_to_B-010/exchange.json",
+      "source_sha256": "80bbe02c943525f9d067ca63f242e0f3999abe093741618a2ab21567fdfafab1",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/9/A_to_B/M240-9-A_to_B-010/exchange.json",
+      "derivative_sha256": "80bbe02c943525f9d067ca63f242e0f3999abe093741618a2ab21567fdfafab1"
+    },
+    {
+      "source_artifact": "validation-evidence/M240/raw/9/B_to_A/M240-9-B_to_A-010/exchange.json",
+      "source_sha256": "56313ca4f8639cbe3edf3981b79b87e7a891d763f3b849e836f2794bf629362a",
+      "redaction_reason": "M-240 SLIT exchange redacted derivative",
+      "redactions_applied": [
+        "COPY_WITH_TRACEABILITY; no substantive content altered"
+      ],
+      "derivative_path": "validation/TC02/evidence/m240/raw/9/B_to_A/M240-9-B_to_A-010/exchange.json",
+      "derivative_sha256": "56313ca4f8639cbe3edf3981b79b87e7a891d763f3b849e836f2794bf629362a"
+    }
+  ]
+}

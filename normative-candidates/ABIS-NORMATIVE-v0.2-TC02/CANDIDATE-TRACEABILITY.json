@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-18T12:15:00Z",
+  "construction_id": "ABIS-SUCCESSOR-CONSTRUCTION-M236",
+  "traceability_complete": true,
+  "chain": [
+    { "id": "LIT-001", "type": "evidence", "artifact": "validation-evidence/TC01/M-231E/raw/LIT-001/", "outcome": "FAIL bidirectional" },
+    { "id": "LF-001", "type": "finding", "parent": "LIT-001", "outcome": "REPRESENTATION_DIVERGENCE A→B" },
+    { "id": "LF-002", "type": "finding", "parent": "LIT-001", "outcome": "REPRESENTATION_DIVERGENCE B→A" },
+    { "id": "RI-001", "type": "root_issue", "parent": ["LF-001", "LF-002"], "requirement": "REQ-0038" },
+    { "id": "CR-PROPOSAL-001", "type": "change_proposal", "parent": "RI-001", "artifact": "validation-evidence/TC01/M-231F/CR-PROPOSAL-001.md" },
+    { "id": "M-232", "type": "governance", "parent": "CR-PROPOSAL-001", "decision": "ACCEPT_FOR_SUCCESSOR_NORMATIVE_WORK" },
+    { "id": "M-233", "type": "design", "parent": "M-232", "outcome": "OPTION C candidate" },
+    { "id": "M-234", "type": "review", "parent": "M-233", "outcome": "DESIGN_REVISION_REQUIRED", "findings": "DRF-001–009" },
+    { "id": "M-233R", "type": "design_revision", "parent": "M-234", "outcome": "DESIGN_READY" },
+    { "id": "M-234R", "type": "re_review", "parent": "M-233R", "outcome": "PASS_WITH_FINDINGS" },
+    { "id": "M-235", "type": "human_promotion", "parent": "M-234R", "decision": "APPROVE_WITH_CONDITIONS" },
+    { "id": "M-236", "type": "construction", "parent": "M-235", "artifact": "candidate-construction/M-236/" }
+  ],
+  "requirements": [
+    {
+      "candidate_requirement": "REQ-0038",
+      "change_type": "UNCHANGED",
+      "authorization": ["RI-001", "M-235"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-A",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["CR-PROPOSAL-001", "M-233R", "M-235"],
+      "schema": "interaction_constraints.preflight_required",
+      "test_vectors": ["TV-037"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-B",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["M-233R", "M-235"],
+      "test_vectors": ["TV-041", "TV-042"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-S",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["M-235 PROFILE_WIDE acceptance"],
+      "test_vectors": ["TV-047"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-S2",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["M-235 PROFILE_WIDE acceptance"],
+      "test_vectors": ["TV-047"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-C",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["DRF-001 resolution", "M-233R", "M-235"],
+      "test_vectors": ["TV-039", "TV-049", "TV-051"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-C2",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["M-233R", "M-235"],
+      "test_vectors": ["TV-040", "TV-050"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-C3",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["M-233R", "M-235"],
+      "test_vectors": ["TV-048"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-C4",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["M-235 PGR_REUSE acceptance"],
+      "test_vectors": ["TV-052", "TV-053", "TV-054"],
+      "slit_phases": ["5b", "10"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-D",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["M-233R", "M-235"],
+      "test_vectors": ["TV-038", "TV-046"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-G",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["DRF-006 resolution", "M-233R", "M-235"],
+      "test_vectors": ["TV-039", "TV-051"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-M",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["DRF-003 resolution", "M-233R", "M-235"],
+      "test_vectors": ["TV-043"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-E",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["M-233R", "M-235 CANONICAL_AUTHORITY"],
+      "test_vectors": ["TV-041", "TV-042", "TV-044"]
+    },
+    {
+      "candidate_requirement": "REQ-0038-F",
+      "change_type": "NORMATIVE_ADDITION",
+      "authorization": ["DRF-004 resolution", "M-233R", "M-235"],
+      "test_vectors": ["TV-045"]
+    }
+  ]
+}

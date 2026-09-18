@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:abis:successor-construction:m236:schemas:profile:profile.schema.json",
+  "title": "ABIS Profile (Successor Candidate — REQ-0038)",
+  "description": "Candidate profile schema delta from TC-01. STATUS: CONSTRUCTION / UNVALIDATED. NOT NORMATIVE.",
+  "construction_id": "ABIS-SUCCESSOR-CONSTRUCTION-M236",
+  "parent_schema": "urn:abis:draft:v0.2:schemas:profile:profile.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "abis_version",
+    "schema_version",
+    "profile_kind",
+    "profile_version",
+    "advertised_interactions",
+    "outcome_boundary"
+  ],
+  "properties": {
+    "abis_version": { "type": "string", "const": "0.2" },
+    "schema_version": { "type": "string", "const": "profile-1" },
+    "profile_kind": { "type": "string", "minLength": 1 },
+    "profile_version": { "type": "integer", "minimum": 1 },
+    "advertised_interactions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/advertisedInteraction" }
+    },
+    "interaction_constraints": { "$ref": "#/$defs/interactionConstraints" },
+    "capabilities": { "type": "object" },
+    "outcome_boundary": { "$ref": "#/$defs/outcomeBoundary" },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "semantic": { "type": "string" },
+        "normative": { "type": "string" }
+      }
+    },
+    "extensions": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "$defs": {
+    "interactionConstraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["preflight_required"],
+      "properties": {
+        "preflight_required": { "type": "boolean" }
+      },
+      "description": "REQ-0038-A. When present, preflight_required MUST be boolean (REQ-0038-M). Omission of interaction_constraints means PREFLIGHT_NOT_REQUIRED (REQ-0038-D)."
+    },
+    "advertisedInteraction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vertical", "operation", "execution_classes_allowed"],
+      "properties": {
+        "vertical": { "type": "string", "minLength": 1 },
+        "operation": { "type": "string", "minLength": 1 },
+        "execution_classes_allowed": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "payload_schema_ref": { "type": "string", "format": "uri" },
+        "invocation": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "method": { "type": "string" },
+            "path": { "type": "string" }
+          }
+        }
+      }
+    },
+    "outcomeBoundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["business_outcome_evaluation", "completion_determination"],
+      "properties": {
+        "business_outcome_evaluation": {
+          "type": "string",
+          "enum": ["SUPPORTED", "NOT_SUPPORTED"]
+        },
+        "completion_determination": {
+          "type": "string",
+          "enum": ["SUPPORTED", "NOT_SUPPORTED"]
+        }
+      }
+    }
+  }
+}

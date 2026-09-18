@@ -2,7 +2,7 @@
 # Default rule: UNKNOWN = NOT PUBLIC
 
 version: "0.1"
-updated: "2026-09-13"
+updated: "2026-09-18"
 repository: abis-standard/abis
 release: public-v0.1
 
@@ -26,6 +26,9 @@ allowed_paths:
   - NOTICE
   - scripts/disclosure/**
   - .abis/disclosure-approval.json
+  - releases/TC02/**
+  - validation/TC02/**
+  - normative-candidates/ABIS-NORMATIVE-v0.2-TC02/**
 
 # Local-only files (must NOT be committed to the public repository)
 local_only_paths:

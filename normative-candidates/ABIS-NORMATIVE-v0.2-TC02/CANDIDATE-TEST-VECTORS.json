@@ -1,0 +1,211 @@
+{
+  "generated_at": "2026-09-18T12:15:00Z",
+  "construction_id": "ABIS-SUCCESSOR-CONSTRUCTION-M236",
+  "status": "CONSTRUCTION / UNVALIDATED — NOT EXECUTED",
+  "parent_baseline": "ABIS-NORMATIVE-v0.2-TC01",
+  "schema_reference": "candidate-construction/M-236/CANDIDATE-SCHEMA.json",
+  "normative_reference": "candidate-construction/M-236/CANDIDATE-NORMATIVE-DRAFT.md",
+  "reconciliation": [
+    {
+      "tv_id": "TV-037",
+      "candidate_requirement": ["REQ-0038-A", "REQ-0038-E"],
+      "candidate_section": "§3 Canonical declaration",
+      "schema_dependency": "interaction_constraints.preflight_required boolean",
+      "input": { "interaction_constraints": { "preflight_required": true } },
+      "expected_semantic_result": "PREFLIGHT_REQUIRED; PROFILE_VALID",
+      "expected_validation_result": "schema valid",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-038",
+      "candidate_requirement": ["REQ-0038-D"],
+      "candidate_section": "§5 Boolean semantics",
+      "schema_dependency": "interaction_constraints omitted",
+      "input": { "interaction_constraints": "absent" },
+      "expected_semantic_result": "PREFLIGHT_NOT_REQUIRED",
+      "expected_validation_result": "schema valid",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-039",
+      "candidate_requirement": ["REQ-0038-C", "REQ-0038-G"],
+      "candidate_section": "§7 PGR; §8 Invoke rejection",
+      "schema_dependency": "preflight_required true",
+      "input": { "preflight_required": true, "prior_pgr": false },
+      "expected_semantic_result": "ACCEPTED + DENY + PREFLIGHT_REQUIRED",
+      "expected_validation_result": "n/a",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-040",
+      "candidate_requirement": ["REQ-0038-C2", "REQ-0038-C4", "REQ-0007"],
+      "candidate_section": "§7 PGR",
+      "schema_dependency": "preflight_required true",
+      "input": { "preflight_required": true, "prior_pgr": true, "same_identity": true },
+      "expected_semantic_result": "Invoke evaluated; MAY NOT_EVALUATED",
+      "expected_validation_result": "n/a",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-041",
+      "candidate_requirement": ["REQ-0038-B", "REQ-0038-E"],
+      "candidate_section": "§11 Legacy",
+      "schema_dependency": "capabilities permitted; interaction_constraints absent",
+      "input": { "capabilities": { "interaction_constraints": { "preflight_required": true } }, "interaction_constraints": "absent" },
+      "expected_semantic_result": "PREFLIGHT_NOT_REQUIRED; legacy IGNORED_FOR_REQ0038",
+      "expected_validation_result": "schema valid",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-042",
+      "candidate_requirement": ["REQ-0038-B", "REQ-0038-E", "REQ-0012"],
+      "candidate_section": "§11 Legacy",
+      "schema_dependency": "extensions permitted",
+      "input": { "extensions": { "https://vendor.example/abis/ext/preflight-required": true }, "interaction_constraints": "absent" },
+      "expected_semantic_result": "PREFLIGHT_NOT_REQUIRED; extension IGNORED_FOR_REQ0038",
+      "expected_validation_result": "schema valid",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-043",
+      "candidate_requirement": ["REQ-0038-M"],
+      "candidate_section": "§9 Malformed",
+      "schema_dependency": "preflight_required type boolean enforced",
+      "input": { "interaction_constraints": { "preflight_required": "yes" } },
+      "expected_semantic_result": "PROFILE_INVALID",
+      "expected_validation_result": "schema invalid",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-044",
+      "candidate_requirement": ["REQ-0038-E", "REQ-0012"],
+      "candidate_section": "§11 Canonical authority",
+      "schema_dependency": "canonical + extension coexist",
+      "input": { "interaction_constraints": { "preflight_required": true }, "extensions": { "https://vendor.example/abis/ext/preflight-required": false } },
+      "expected_semantic_result": "PREFLIGHT_REQUIRED from canonical",
+      "expected_validation_result": "schema valid",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-045",
+      "candidate_requirement": ["REQ-0038-F", "REQ-0013"],
+      "candidate_section": "§11 Critical extension",
+      "schema_dependency": "critical extension without capability",
+      "input": { "interaction_constraints": { "preflight_required": true }, "extensions": { "urn:abis:draft:v0.2:ext:critical:preflight-required": {} }, "capabilities": {} },
+      "expected_semantic_result": "PROFILE_INVALID",
+      "expected_validation_result": "PROFILE_INVALID at ingest",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-046",
+      "candidate_requirement": ["REQ-0038-D"],
+      "candidate_section": "§5 Boolean semantics",
+      "schema_dependency": "preflight_required false",
+      "input": { "interaction_constraints": { "preflight_required": false } },
+      "expected_semantic_result": "PREFLIGHT_NOT_REQUIRED",
+      "expected_validation_result": "schema valid",
+      "status": "REDUNDANT",
+      "note": "Largely subsumed by TV-038; retained for explicit false path"
+    },
+    {
+      "tv_id": "TV-047",
+      "candidate_requirement": ["REQ-0038-S", "REQ-0038-C"],
+      "candidate_section": "§4 PROFILE_WIDE",
+      "schema_dependency": "multi advertised_interactions",
+      "input": {
+        "interaction_constraints": { "preflight_required": true },
+        "advertised_interactions": [
+          { "vertical": "restaurant", "operation": "reserve", "execution_classes_allowed": ["CONTROLLED_SIMULATOR"] },
+          { "vertical": "hotel", "operation": "book", "execution_classes_allowed": ["CONTROLLED_SIMULATOR"] }
+        ],
+        "invoke_targets": ["restaurant/reserve", "hotel/book"],
+        "prior_pgr": false
+      },
+      "expected_semantic_result": "Both Invoke without PGR → PREFLIGHT_REQUIRED",
+      "expected_validation_result": "schema valid",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-048",
+      "candidate_requirement": ["REQ-0038-C3"],
+      "candidate_section": "§7 PGR invalidation",
+      "schema_dependency": "profile_version change",
+      "input": { "pgr_at_version": 1, "invoke_under_version": 2, "preflight_required": true },
+      "expected_semantic_result": "PREFLIGHT_REQUIRED — PGR invalidated",
+      "expected_validation_result": "n/a",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-049",
+      "candidate_requirement": ["REQ-0038-C"],
+      "candidate_section": "§6 Interaction Context",
+      "schema_dependency": "tuple mismatch",
+      "input": { "pgr_tuple": "restaurant/reserve/CONTROLLED_SIMULATOR", "invoke_tuple": "hotel/book/CONTROLLED_SIMULATOR", "preflight_required": true },
+      "expected_semantic_result": "PREFLIGHT_REQUIRED — no valid PGR",
+      "expected_validation_result": "n/a",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-050",
+      "candidate_requirement": ["REQ-0015", "REQ-0038-C2"],
+      "candidate_section": "§7 PGR creation",
+      "schema_dependency": "preflight_required true",
+      "input": { "preflight_required": true, "preflight_response": "NOT_ADVERTISED", "subsequent_invoke": true },
+      "expected_semantic_result": "PREFLIGHT_REQUIRED at Invoke — no PGR",
+      "expected_validation_result": "n/a",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-051",
+      "rrf_coverage": "RRF-003",
+      "candidate_requirement": ["REQ-0038-C", "REQ-0038-G", "§10 Unsupported required"],
+      "candidate_section": "§10 Unsupported required Preflight",
+      "schema_dependency": "valid Profile preflight_required true",
+      "input": { "interaction_constraints": { "preflight_required": true }, "responder_preflight_support": false, "prior_pgr": false },
+      "expected_semantic_result": "ACCEPTED + DENY + PREFLIGHT_REQUIRED",
+      "expected_validation_result": "PROFILE_VALID; no PGR obtainable",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-052",
+      "rrf_coverage": "RRF-002",
+      "candidate_requirement": ["REQ-0038-C4"],
+      "candidate_section": "§7 PGR reuse",
+      "schema_dependency": "preflight_required true",
+      "input": { "preflight_required": true, "prior_pgr": true, "same_identity": true, "invoke_sequence": ["invoke_1", "invoke_2"] },
+      "expected_semantic_result": "Both Invokes permitted for evaluation without new Preflight",
+      "expected_validation_result": "n/a",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-053",
+      "rrf_coverage": "RRF-002",
+      "candidate_requirement": ["REQ-0038-C4", "REQ-0007"],
+      "candidate_section": "§7 PGR reuse after failed Invoke",
+      "schema_dependency": "preflight_required true",
+      "input": { "preflight_required": true, "prior_pgr": true, "invoke_1_outcome": "DENY_or_NOT_EVALUATED", "invoke_2": "same_identity" },
+      "expected_semantic_result": "PGR remains valid; second Invoke permitted for evaluation",
+      "expected_validation_result": "n/a",
+      "status": "READY"
+    },
+    {
+      "tv_id": "TV-054",
+      "rrf_coverage": "RRF-002",
+      "candidate_requirement": ["REQ-0038-C4"],
+      "candidate_section": "§7 PGR reuse after successful Invoke",
+      "schema_dependency": "preflight_required true",
+      "input": { "preflight_required": true, "prior_pgr": true, "invoke_1_outcome": "evaluated", "invoke_2": "same_identity" },
+      "expected_semantic_result": "PGR remains valid; second Invoke permitted for evaluation",
+      "expected_validation_result": "n/a",
+      "status": "READY"
+    }
+  ],
+  "summary": {
+    "total": 18,
+    "ready": 17,
+    "redundant": 1,
+    "needs_revision": 0,
+    "rrf002_coverage": "TV-052, TV-053, TV-054",
+    "rrf003_coverage": "TV-051"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "execution_id": "M240-9-B_to_A-010",
+  "phase_id": "9",
+  "direction": "B_to_A",
+  "timestamp": "2026-09-18T11:31:47Z",
+  "origin_implementation_id": "IMPLEMENTATION_B_SUCCESSOR",
+  "consumer_implementation_id": "IMPLEMENTATION_A_SUCCESSOR",
+  "origin_freeze_hash": "b2c0ee09358d7e7f584db92d5ade2710f744d1acc520df5d6256ea66ce6ac827",
+  "consumer_freeze_hash": "8b9a868b116cd33f22468400817822d6afb0234918a53accc40443e25d1cf7d2",
+  "validation_target_hash": "85edfa82da4ab90c1e43669d59bed8a811d6ab6aba2ea5b03142170d529f0025",
+  "input": {
+    "profile": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "slit001r-m240",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        },
+        {
+          "vertical": "hotel",
+          "operation": "book",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      },
+      "capabilities": {
+        "interaction_constraints": {
+          "preflight_required": false
+        }
+      },
+      "extensions": {
+        "https://vendor.example/abis/ext/preflight-required": false
+      }
+    },
+    "legacy": true
+  },
+  "input_hash": "cb20fdbe7f94fefb72487c8238f78175c9cb566db6c46291ba46c76800f30045",
+  "expected_semantic_behavior": "PREFLIGHT_REQUIRED",
+  "origin_actual_semantic": "PREFLIGHT_REQUIRED",
+  "consumer_actual_semantic": "PREFLIGHT_REQUIRED",
+  "semantic_match": true,
+  "verdict": "PASS"
+}

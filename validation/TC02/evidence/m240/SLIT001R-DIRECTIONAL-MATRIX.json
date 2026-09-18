@@ -1,0 +1,135 @@
+{
+  "phases_total": 12,
+  "directions": [
+    "A_to_B",
+    "B_to_A"
+  ],
+  "matrix": {
+    "1": {
+      "A_to_B": {
+        "executed": true,
+        "verdict": "PASS"
+      },
+      "B_to_A": {
+        "executed": true,
+        "verdict": "PASS"
+      }
+    },
+    "2": {
+      "A_to_B": {
+        "executed": true,
+        "verdict": "PASS"
+      },
+      "B_to_A": {
+        "executed": true,
+        "verdict": "PASS"
+      }
+    },
+    "3": {
+      "A_to_B": {
+        "executed": true,
+        "verdict": "PASS"
+      },
+      "B_to_A": {
+        "executed": true,
+        "verdict": "PASS"
+      }
+    },
+    "4": {
+      "A_to_B": {
+        "executed": true,
+        "verdict": "PASS"
+      },
+      "B_to_A": {
+        "executed": true,
+        "verdict": "PASS"
+      }
+    },
+    "5": {
+      "A_to_B": {
+        "executed": true,
+        "verdict": "PASS"
+      },
+      "B_to_A": {
+        "executed": true,
+        "verdict": "PASS"
+      }
+    },
+    "5b": {
+      "A_to_B": {
+        "executed": true,
+        "verdict": "PASS"
+      },
+      "B_to_A": {
+        "executed": true,
+        "verdict": "PASS"
+      }
+    },
+    "6": {
+      "A_to_B": {
+        "executed": true,
+        "verdict": "PASS"
+      },
+      "B_to_A": {
+        "executed": true,
+        "verdict": "PASS"
+      }
+    },
+    "7": {
+      "A_to_B": {
+        "executed": true,
+        "verdict": "PASS"
+      },
+      "B_to_A": {
+        "executed": true,
+        "verdict": "PASS"
+      }
+    },
+    "8": {
+      "A_to_B": {
+        "executed": true,
+        "verdict": "PASS"
+      },
+      "B_to_A": {
+        "executed": true,
+        "verdict": "PASS"
+      }
+    },
+    "9": {
+      "A_to_B": {
+        "executed": true,
+        "verdict": "PASS"
+      },
+      "B_to_A": {
+        "executed": true,
+        "verdict": "PASS"
+      }
+    },
+    "10": {
+      "A_to_B": {
+        "executed": true,
+        "verdict": "PASS"
+      },
+      "B_to_A": {
+        "executed": true,
+        "verdict": "PASS"
+      }
+    },
+    "11": {
+      "A_to_B": {
+        "executed": true,
+        "verdict": "PASS"
+      },
+      "B_to_A": {
+        "executed": true,
+        "verdict": "PASS"
+      }
+    }
+  },
+  "directional_exchanges_expected": 24,
+  "directional_exchanges_executed": 24,
+  "directional_pass": 24,
+  "directional_fail": 0,
+  "directional_blocked": 0,
+  "directional_inconclusive": 0
+}

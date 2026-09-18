@@ -1,0 +1,48 @@
+{
+  "target_file_results": {
+    "CANDIDATE-MANIFEST.json": {
+      "expected": "e4b922f253794216c42ade8192623a8336099b7b33598f1d99a3375de58c3dc8",
+      "actual": "e4b922f253794216c42ade8192623a8336099b7b33598f1d99a3375de58c3dc8",
+      "match": true
+    },
+    "CANDIDATE-MIGRATION-NOTE.md": {
+      "expected": "8203ddec0a086c6400fccf40a018d23cd4590ffeed119fabda219433903cf11c",
+      "actual": "8203ddec0a086c6400fccf40a018d23cd4590ffeed119fabda219433903cf11c",
+      "match": true
+    },
+    "CANDIDATE-NORMATIVE-DRAFT.md": {
+      "expected": "7593a7d24ae899ae4b66588bc534e249bc852ae89b7421867b9b5456b4ba36b3",
+      "actual": "7593a7d24ae899ae4b66588bc534e249bc852ae89b7421867b9b5456b4ba36b3",
+      "match": true
+    },
+    "CANDIDATE-SCHEMA.json": {
+      "expected": "b556593927483d781455a1afd39ee9072d1155d63bcf22c52fa3c6df879b8ab0",
+      "actual": "b556593927483d781455a1afd39ee9072d1155d63bcf22c52fa3c6df879b8ab0",
+      "match": true
+    },
+    "CANDIDATE-SLIT001R-DESIGN.md": {
+      "expected": "c018bf7c30f07bf8f1e2fb091d32bcd9778a13fc5f7b8a82acb9a523157d873a",
+      "actual": "c018bf7c30f07bf8f1e2fb091d32bcd9778a13fc5f7b8a82acb9a523157d873a",
+      "match": true
+    },
+    "CANDIDATE-TEST-VECTORS.json": {
+      "expected": "05d0e56b8b4a43a1e6260ee5228a5a4901ed79ec0dcd3d659239a2cc81cfa755",
+      "actual": "05d0e56b8b4a43a1e6260ee5228a5a4901ed79ec0dcd3d659239a2cc81cfa755",
+      "match": true
+    },
+    "CANDIDATE-TRACEABILITY.json": {
+      "expected": "3ea1303e2cb063dc7e978179c00d2db6a05d8f9907c617378f4506d4a996cf66",
+      "actual": "3ea1303e2cb063dc7e978179c00d2db6a05d8f9907c617378f4506d4a996cf66",
+      "match": true
+    }
+  },
+  "validation_target_hash": {
+    "expected": "85edfa82da4ab90c1e43669d59bed8a811d6ab6aba2ea5b03142170d529f0025",
+    "actual": "85edfa82da4ab90c1e43669d59bed8a811d6ab6aba2ea5b03142170d529f0025",
+    "match": true
+  },
+  "validation_package_hash": {
+    "actual": "69400ef865c1681c22c87822bfed1f35b97adbb0bedf712111aee1cfe2f6f84f"
+  },
+  "all_target_match": true
+}

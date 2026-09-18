@@ -1,0 +1,6 @@
+{
+  "note": "M-239 implementation source NOT authorized for publication (M-245 Q6 NO)",
+  "implementation_a_freeze_hash_sha256": "8b9a868b116cd33f22468400817822d6afb0234918a53accc40443e25d1cf7d2",
+  "implementation_b_freeze_hash_sha256": "b2c0ee09358d7e7f584db92d5ade2710f744d1acc520df5d6256ea66ce6ac827",
+  "cross_implementation_access_before_freeze": false
+}

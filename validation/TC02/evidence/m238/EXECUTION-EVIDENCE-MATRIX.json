@@ -1,0 +1,294 @@
+{
+  "tv_total": 18,
+  "validators": [
+    "V1-openai",
+    "V2-anthropic",
+    "V3-xai"
+  ],
+  "matrix": {
+    "V1-openai": {
+      "TV-037": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_REQUIRED"
+      },
+      "TV-038": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_NOT_REQUIRED"
+      },
+      "TV-039": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-040": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "INVOKE_EVALUATED"
+      },
+      "TV-041": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_NOT_REQUIRED"
+      },
+      "TV-042": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_NOT_REQUIRED"
+      },
+      "TV-043": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PROFILE_INVALID"
+      },
+      "TV-044": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_REQUIRED"
+      },
+      "TV-045": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PROFILE_INVALID"
+      },
+      "TV-046": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_NOT_REQUIRED"
+      },
+      "TV-047": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-048": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-049": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-050": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-051": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-052": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "INVOKE_EVALUATED"
+      },
+      "TV-053": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "INVOKE_EVALUATED"
+      },
+      "TV-054": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "INVOKE_EVALUATED"
+      }
+    },
+    "V2-anthropic": {
+      "TV-037": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_REQUIRED"
+      },
+      "TV-038": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_NOT_REQUIRED"
+      },
+      "TV-039": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-040": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "INVOKE_EVALUATED"
+      },
+      "TV-041": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_NOT_REQUIRED"
+      },
+      "TV-042": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_NOT_REQUIRED"
+      },
+      "TV-043": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PROFILE_INVALID"
+      },
+      "TV-044": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_REQUIRED"
+      },
+      "TV-045": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PROFILE_INVALID"
+      },
+      "TV-046": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_NOT_REQUIRED"
+      },
+      "TV-047": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-048": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-049": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-050": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-051": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-052": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "INVOKE_EVALUATED"
+      },
+      "TV-053": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "INVOKE_EVALUATED"
+      },
+      "TV-054": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "INVOKE_EVALUATED"
+      }
+    },
+    "V3-xai": {
+      "TV-037": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_REQUIRED"
+      },
+      "TV-038": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_NOT_REQUIRED"
+      },
+      "TV-039": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-040": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "INVOKE_EVALUATED"
+      },
+      "TV-041": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_NOT_REQUIRED"
+      },
+      "TV-042": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_NOT_REQUIRED"
+      },
+      "TV-043": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PROFILE_INVALID"
+      },
+      "TV-044": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_REQUIRED"
+      },
+      "TV-045": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PROFILE_INVALID"
+      },
+      "TV-046": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "PREFLIGHT_NOT_REQUIRED"
+      },
+      "TV-047": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-048": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-049": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-050": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-051": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED"
+      },
+      "TV-052": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "INVOKE_EVALUATED"
+      },
+      "TV-053": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "INVOKE_EVALUATED"
+      },
+      "TV-054": {
+        "verdict": "PASS",
+        "actually_executed": true,
+        "actual_semantic": "INVOKE_EVALUATED"
+      }
+    }
+  },
+  "aggregates": {
+    "tv_actually_executed_total": 54,
+    "tv_pass_total": 54,
+    "tv_fail_total": 0,
+    "tv_blocked_total": 0,
+    "tv_inconclusive_total": 0,
+    "tv_not_executed_total": 0
+  }
+}

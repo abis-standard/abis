@@ -1,0 +1,772 @@
+[
+  {
+    "tv_id": "TV-037",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "interaction_constraints": {
+        "preflight_required": true
+      }
+    },
+    "input_hash": "e5d23aca5abd25f038a73584e27e9c60d0b67ecb87761da86874235bfe19025f",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      }
+    },
+    "profile_fixture_hash": "101e7f631def3ad085f50e8c06afce6e8f1c2878a087629736d04207262358af",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "PREFLIGHT_REQUIRED",
+    "expected_semantic": "PREFLIGHT_REQUIRED; PROFILE_VALID",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-038",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "interaction_constraints": "absent"
+    },
+    "input_hash": "8b3c2a9ee31bdcaa217c0d9fd114eb76b2717293f5a5ddda5ba06c8c436cdb8b",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      }
+    },
+    "profile_fixture_hash": "7355c62a2aa449f5bd10bb5e909f4efcb10a3dd0e589a0dfa9779eacea4a713e",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "PREFLIGHT_NOT_REQUIRED",
+    "expected_semantic": "PREFLIGHT_NOT_REQUIRED",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-039",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "preflight_required": true,
+      "prior_pgr": false
+    },
+    "input_hash": "dc27ae98b952e755d5aead86271fa18095cecfb5c30b9035b4148eae2f22702d",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      }
+    },
+    "profile_fixture_hash": "101e7f631def3ad085f50e8c06afce6e8f1c2878a087629736d04207262358af",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED",
+    "expected_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-040",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "preflight_required": true,
+      "prior_pgr": true,
+      "same_identity": true
+    },
+    "input_hash": "cc6b4a16b51c940c812fcb4c58ed0bdc1291b7938250bbe8b60a2ba7f56ec96a",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      }
+    },
+    "profile_fixture_hash": "101e7f631def3ad085f50e8c06afce6e8f1c2878a087629736d04207262358af",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "INVOKE_EVALUATED",
+    "expected_semantic": "Invoke evaluated; MAY NOT_EVALUATED",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-041",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "capabilities": {
+        "interaction_constraints": {
+          "preflight_required": true
+        }
+      },
+      "interaction_constraints": "absent"
+    },
+    "input_hash": "cf94420c3299f9ab58bd1679af389537a08623a29c93a6b0604b401da2e690f4",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "capabilities": {
+        "interaction_constraints": {
+          "preflight_required": true
+        }
+      }
+    },
+    "profile_fixture_hash": "34a5c6fcf7f71d380d1017327e27a7cdc3641a99dcdf5a56a5642658c7e8cf02",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "PREFLIGHT_NOT_REQUIRED",
+    "expected_semantic": "PREFLIGHT_NOT_REQUIRED; legacy IGNORED_FOR_REQ0038",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-042",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "extensions": {
+        "https://vendor.example/abis/ext/preflight-required": true
+      },
+      "interaction_constraints": "absent"
+    },
+    "input_hash": "a56a7fb6dfd71f460272fe9afa489de2f52a8bf2bb2199a29d4879b4238b986d",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "extensions": {
+        "https://vendor.example/abis/ext/preflight-required": true
+      }
+    },
+    "profile_fixture_hash": "d24bec7224b7eca298f7d30619f100d2398f3df5d607862836b6149c3f8513ce",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "PREFLIGHT_NOT_REQUIRED",
+    "expected_semantic": "PREFLIGHT_NOT_REQUIRED; extension IGNORED_FOR_REQ0038",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-043",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "interaction_constraints": {
+        "preflight_required": "yes"
+      }
+    },
+    "input_hash": "d5aee3ae2ca488503ae619658eea1443e45017f96c5e7c818149930ae0a747bf",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": "yes"
+      }
+    },
+    "profile_fixture_hash": "01589e5e9760bc5e1e3257aa95969952cbffcfeb7a18c9c9de2208818ef0c72d",
+    "schema_valid": false,
+    "schema_error": "'yes' is not of type 'boolean'",
+    "actual_semantic": "PROFILE_INVALID",
+    "expected_semantic": "PROFILE_INVALID",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-044",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "interaction_constraints": {
+        "preflight_required": true
+      },
+      "extensions": {
+        "https://vendor.example/abis/ext/preflight-required": false
+      }
+    },
+    "input_hash": "5c99212fa42f1f2892e701fcbb74b3e500aee7519a6c06f6a98ffaf4de2d6155",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      },
+      "extensions": {
+        "https://vendor.example/abis/ext/preflight-required": false
+      }
+    },
+    "profile_fixture_hash": "e2dfada4fdb72451a236d4dd2ce7417a43b02de62956a0eb4cd6b9ee1e203729",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "PREFLIGHT_REQUIRED",
+    "expected_semantic": "PREFLIGHT_REQUIRED from canonical",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-045",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "interaction_constraints": {
+        "preflight_required": true
+      },
+      "extensions": {
+        "urn:abis:draft:v0.2:ext:critical:preflight-required": {}
+      },
+      "capabilities": {}
+    },
+    "input_hash": "aba6f3bc35216f054f779708a14c36ada453e7fab66f19062bce945b3e3b556e",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      },
+      "capabilities": {},
+      "extensions": {
+        "urn:abis:draft:v0.2:ext:critical:preflight-required": {}
+      }
+    },
+    "profile_fixture_hash": "c7362deb95a8053bd15ee58906118db239250f10a8cf140be3496e72ef28b369",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "PROFILE_INVALID",
+    "expected_semantic": "PROFILE_INVALID",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-046",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "interaction_constraints": {
+        "preflight_required": false
+      }
+    },
+    "input_hash": "f0b4881899c5d1851d8199efa4bcdafc887367bd9c2597ff0528fe460570cb9f",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": false
+      }
+    },
+    "profile_fixture_hash": "c63018f18d2d8901f1a95b6f0861193851ebd47637fa3b4870c177185f600eb1",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "PREFLIGHT_NOT_REQUIRED",
+    "expected_semantic": "PREFLIGHT_NOT_REQUIRED",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-047",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "interaction_constraints": {
+        "preflight_required": true
+      },
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        },
+        {
+          "vertical": "hotel",
+          "operation": "book",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "invoke_targets": [
+        "restaurant/reserve",
+        "hotel/book"
+      ],
+      "prior_pgr": false
+    },
+    "input_hash": "bb78fde54a55bf74d6b9f76d56c356366b5aa4498bfffcf450f73aeaf6f06ed4",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        },
+        {
+          "vertical": "hotel",
+          "operation": "book",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      }
+    },
+    "profile_fixture_hash": "849b7d079ae14c0cd136fa8cb028a36d90869c3ed3b347bfbc821161fde53a8f",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED",
+    "expected_semantic": "Both Invoke without PGR \u2192 PREFLIGHT_REQUIRED",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-048",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "pgr_at_version": 1,
+      "invoke_under_version": 2,
+      "preflight_required": true
+    },
+    "input_hash": "2601092500473ff29eb109392fde339f77a1dd534bb46912bb6361c4c4bdb457",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      }
+    },
+    "profile_fixture_hash": "101e7f631def3ad085f50e8c06afce6e8f1c2878a087629736d04207262358af",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED",
+    "expected_semantic": "PREFLIGHT_REQUIRED \u2014 PGR invalidated",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-049",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "pgr_tuple": "restaurant/reserve/CONTROLLED_SIMULATOR",
+      "invoke_tuple": "hotel/book/CONTROLLED_SIMULATOR",
+      "preflight_required": true
+    },
+    "input_hash": "083734bb0545faeababf32cbd4dfc2ee0d7d2d69021050d057e1eb7331f2f8eb",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      }
+    },
+    "profile_fixture_hash": "101e7f631def3ad085f50e8c06afce6e8f1c2878a087629736d04207262358af",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED",
+    "expected_semantic": "PREFLIGHT_REQUIRED \u2014 no valid PGR",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-050",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "preflight_required": true,
+      "preflight_response": "NOT_ADVERTISED",
+      "subsequent_invoke": true
+    },
+    "input_hash": "98cbd3f478fd05b110b0f4021d7acb0bd77142001f77457b0905f07ead46cf2d",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      }
+    },
+    "profile_fixture_hash": "101e7f631def3ad085f50e8c06afce6e8f1c2878a087629736d04207262358af",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED",
+    "expected_semantic": "PREFLIGHT_REQUIRED at Invoke \u2014 no PGR",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-051",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "interaction_constraints": {
+        "preflight_required": true
+      },
+      "responder_preflight_support": false,
+      "prior_pgr": false
+    },
+    "input_hash": "889526b21f58e0f8fbd7cc5637ffce4d82f0af340aa06b40e234e6829a2f8f34",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      }
+    },
+    "profile_fixture_hash": "101e7f631def3ad085f50e8c06afce6e8f1c2878a087629736d04207262358af",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED",
+    "expected_semantic": "ACCEPTED + DENY + PREFLIGHT_REQUIRED",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-052",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "preflight_required": true,
+      "prior_pgr": true,
+      "same_identity": true,
+      "invoke_sequence": [
+        "invoke_1",
+        "invoke_2"
+      ]
+    },
+    "input_hash": "ad3efe8c49f167bb1854fb07d4a39a77d4b504199339473de572040781af23ef",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      }
+    },
+    "profile_fixture_hash": "101e7f631def3ad085f50e8c06afce6e8f1c2878a087629736d04207262358af",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "INVOKE_EVALUATED",
+    "expected_semantic": "Both Invokes permitted for evaluation without new Preflight",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-053",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "preflight_required": true,
+      "prior_pgr": true,
+      "invoke_1_outcome": "DENY_or_NOT_EVALUATED",
+      "invoke_2": "same_identity"
+    },
+    "input_hash": "0bc77bce962ef9b5524b42c3306cdebe4379515ed11ea371e0780cdb5f718453",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      }
+    },
+    "profile_fixture_hash": "101e7f631def3ad085f50e8c06afce6e8f1c2878a087629736d04207262358af",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "INVOKE_EVALUATED",
+    "expected_semantic": "PGR remains valid; second Invoke permitted for evaluation",
+    "match": true,
+    "verdict": "PASS"
+  },
+  {
+    "tv_id": "TV-054",
+    "execution_class": "ACTUALLY_EXECUTED",
+    "execution_method": "package_bound_semantic_evaluator + jsonschema",
+    "input": {
+      "preflight_required": true,
+      "prior_pgr": true,
+      "invoke_1_outcome": "evaluated",
+      "invoke_2": "same_identity"
+    },
+    "input_hash": "b4c06bfc654ddba0a749032002e9433db6414618f7cd202dbd9376872e7e3841",
+    "profile_fixture": {
+      "abis_version": "0.2",
+      "schema_version": "profile-1",
+      "profile_kind": "m238-test",
+      "profile_version": 1,
+      "advertised_interactions": [
+        {
+          "vertical": "restaurant",
+          "operation": "reserve",
+          "execution_classes_allowed": [
+            "CONTROLLED_SIMULATOR"
+          ]
+        }
+      ],
+      "outcome_boundary": {
+        "business_outcome_evaluation": "NOT_SUPPORTED",
+        "completion_determination": "NOT_SUPPORTED"
+      },
+      "interaction_constraints": {
+        "preflight_required": true
+      }
+    },
+    "profile_fixture_hash": "101e7f631def3ad085f50e8c06afce6e8f1c2878a087629736d04207262358af",
+    "schema_valid": true,
+    "schema_error": null,
+    "actual_semantic": "INVOKE_EVALUATED",
+    "expected_semantic": "PGR remains valid; second Invoke permitted for evaluation",
+    "match": true,
+    "verdict": "PASS"
+  }
+]

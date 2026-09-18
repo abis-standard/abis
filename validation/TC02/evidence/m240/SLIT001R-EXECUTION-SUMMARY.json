@@ -1,0 +1,145 @@
+{
+  "freeze_a_before": "8b9a868b116cd33f22468400817822d6afb0234918a53accc40443e25d1cf7d2",
+  "freeze_a_after": "8b9a868b116cd33f22468400817822d6afb0234918a53accc40443e25d1cf7d2",
+  "freeze_b_before": "b2c0ee09358d7e7f584db92d5ade2710f744d1acc520df5d6256ea66ce6ac827",
+  "freeze_b_after": "b2c0ee09358d7e7f584db92d5ade2710f744d1acc520df5d6256ea66ce6ac827",
+  "harness_hash_before": "cf13517832163f640e2cf35d7cd228865ea6bbad7cd470c80c69563e04bf81f6",
+  "harness_hash_after": "cf13517832163f640e2cf35d7cd228865ea6bbad7cd470c80c69563e04bf81f6",
+  "matrix": {
+    "phases_total": 12,
+    "directions": [
+      "A_to_B",
+      "B_to_A"
+    ],
+    "matrix": {
+      "1": {
+        "A_to_B": {
+          "executed": true,
+          "verdict": "PASS"
+        },
+        "B_to_A": {
+          "executed": true,
+          "verdict": "PASS"
+        }
+      },
+      "2": {
+        "A_to_B": {
+          "executed": true,
+          "verdict": "PASS"
+        },
+        "B_to_A": {
+          "executed": true,
+          "verdict": "PASS"
+        }
+      },
+      "3": {
+        "A_to_B": {
+          "executed": true,
+          "verdict": "PASS"
+        },
+        "B_to_A": {
+          "executed": true,
+          "verdict": "PASS"
+        }
+      },
+      "4": {
+        "A_to_B": {
+          "executed": true,
+          "verdict": "PASS"
+        },
+        "B_to_A": {
+          "executed": true,
+          "verdict": "PASS"
+        }
+      },
+      "5": {
+        "A_to_B": {
+          "executed": true,
+          "verdict": "PASS"
+        },
+        "B_to_A": {
+          "executed": true,
+          "verdict": "PASS"
+        }
+      },
+      "5b": {
+        "A_to_B": {
+          "executed": true,
+          "verdict": "PASS"
+        },
+        "B_to_A": {
+          "executed": true,
+          "verdict": "PASS"
+        }
+      },
+      "6": {
+        "A_to_B": {
+          "executed": true,
+          "verdict": "PASS"
+        },
+        "B_to_A": {
+          "executed": true,
+          "verdict": "PASS"
+        }
+      },
+      "7": {
+        "A_to_B": {
+          "executed": true,
+          "verdict": "PASS"
+        },
+        "B_to_A": {
+          "executed": true,
+          "verdict": "PASS"
+        }
+      },
+      "8": {
+        "A_to_B": {
+          "executed": true,
+          "verdict": "PASS"
+        },
+        "B_to_A": {
+          "executed": true,
+          "verdict": "PASS"
+        }
+      },
+      "9": {
+        "A_to_B": {
+          "executed": true,
+          "verdict": "PASS"
+        },
+        "B_to_A": {
+          "executed": true,
+          "verdict": "PASS"
+        }
+      },
+      "10": {
+        "A_to_B": {
+          "executed": true,
+          "verdict": "PASS"
+        },
+        "B_to_A": {
+          "executed": true,
+          "verdict": "PASS"
+        }
+      },
+      "11": {
+        "A_to_B": {
+          "executed": true,
+          "verdict": "PASS"
+        },
+        "B_to_A": {
+          "executed": true,
+          "verdict": "PASS"
+        }
+      }
+    },
+    "directional_exchanges_expected": 24,
+    "directional_exchanges_executed": 24,
+    "directional_pass": 24,
+    "directional_fail": 0,
+    "directional_blocked": 0,
+    "directional_inconclusive": 0
+  },
+  "all_pass": true,
+  "results_count": 24
+}

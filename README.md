@@ -27,6 +27,25 @@ Public v0.1 is a Concept & Architecture Release. This release is intended for pu
 
 ---
 
+## Normative Candidate TC02 
+
+**Framework:** ABIS Public v0.1 — Concept & Architecture Release  
+**Normative Candidate:** ABIS-NORMATIVE-v0.2-TC02  
+**Status:** FORMAL NORMATIVE CANDIDATE / VALIDATED_WITH_LIMITATIONS / FROZEN
+
+TC02 is a successor normative candidate addressing RI-001 (REQ-0038 preflight declaration). It remains under Public v0.1 framework identity and is not a final normative release or certification.
+
+| Resource | Path |
+| --- | --- |
+| Candidate specification | `normative-candidates/ABIS-NORMATIVE-v0.2-TC02/` |
+| Validation documentation | `validation/TC02/` |
+| Release materials | `releases/TC02/` |
+| Candidate hash | `85edfa82da4ab90c1e43669d59bed8a811d6ab6aba2ea5b03142170d529f0025` |
+
+See `releases/TC02/PUBLIC-MANIFEST.json` for machine-readable metadata.
+
+---
+
 ## What is ABIS?
 
 **EN:** ABIS (Agent Business Interaction Standard) is an interoperability framework designed to provide a common way to represent Business Interactions and Business Outcomes across different AI agents, protocols, and business systems.

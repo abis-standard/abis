@@ -1,0 +1,50 @@
+{
+  "manifest_status": "STAGED_NOT_PUBLISHED",
+  "semantic_authority": false,
+  "staged_at": "2026-09-18T12:47:50Z",
+  "candidate_id": "ABIS-NORMATIVE-v0.2-TC02",
+  "framework_release": "ABIS Public v0.1",
+  "candidate_status": "FORMAL NORMATIVE CANDIDATE",
+  "validation_status": "VALIDATED_WITH_LIMITATIONS",
+  "freeze_status": "FROZEN",
+  "candidate_hash_sha256": "85edfa82da4ab90c1e43669d59bed8a811d6ab6aba2ea5b03142170d529f0025",
+  "parent_candidate": "ABIS-NORMATIVE-v0.2-TC01",
+  "parent_candidate_hash_sha256": "399b328d38383f58e51b28e41b354aa9697a0f7764916f57fa0e9b37e09736ee",
+  "change_root_issue": "RI-001",
+  "ri001_status": "CLOSED_BY_SUCCESSOR_E4",
+  "external_organization_validation": "NOT_ESTABLISHED",
+  "certification_status": "NONE",
+  "evidence_levels": {
+    "e1": 15,
+    "e2": 14,
+    "e3": 13,
+    "e4": 10
+  },
+  "e4_requirement_ids": [
+    "REQ-0038-A",
+    "REQ-0038-C",
+    "REQ-0038-C2",
+    "REQ-0038-C3",
+    "REQ-0038-C4",
+    "REQ-0038-E",
+    "REQ-0038-G",
+    "REQ-0038-S",
+    "RRF-002",
+    "RRF-003"
+  ],
+  "e4_partial_requirements": [
+    "REQ-0038"
+  ],
+  "e4_not_established_requirements": [
+    "REQ-0038-B",
+    "REQ-0038-D",
+    "REQ-0038-F",
+    "REQ-0038-M",
+    "REQ-0038-S2"
+  ],
+  "req0038n_evidence_level": "E1_ONLY",
+  "limitations_count": 8,
+  "promotion_authority": "Human Program Authority (M-243)",
+  "release_authorization": "M-245 AUTHORIZE_PUBLIC_RELEASE_WITH_CONDITIONS",
+  "public_release_status": "STAGED_NOT_PUBLISHED"
+}

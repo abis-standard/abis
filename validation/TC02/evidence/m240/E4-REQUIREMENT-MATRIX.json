@@ -1,0 +1,139 @@
+{
+  "generated_at": "2026-09-18T11:32:07Z",
+  "requirements": [
+    {
+      "requirement_id": "REQ-0038-A",
+      "phases": [
+        "1",
+        "2",
+        "9"
+      ],
+      "directions": [
+        "A_to_B",
+        "B_to_A"
+      ],
+      "result": "PASS",
+      "e4_status": "ESTABLISHED"
+    },
+    {
+      "requirement_id": "REQ-0038-C",
+      "phases": [
+        "3",
+        "5",
+        "5b",
+        "6"
+      ],
+      "directions": [
+        "A_to_B",
+        "B_to_A"
+      ],
+      "result": "PASS",
+      "e4_status": "ESTABLISHED"
+    },
+    {
+      "requirement_id": "REQ-0038-C2",
+      "phases": [
+        "4"
+      ],
+      "directions": [
+        "A_to_B",
+        "B_to_A"
+      ],
+      "result": "PASS",
+      "e4_status": "ESTABLISHED"
+    },
+    {
+      "requirement_id": "REQ-0038-C3",
+      "phases": [
+        "7"
+      ],
+      "directions": [
+        "A_to_B",
+        "B_to_A"
+      ],
+      "result": "PASS",
+      "e4_status": "ESTABLISHED"
+    },
+    {
+      "requirement_id": "REQ-0038-C4",
+      "phases": [
+        "5b",
+        "10"
+      ],
+      "directions": [
+        "A_to_B",
+        "B_to_A"
+      ],
+      "result": "PASS",
+      "e4_status": "ESTABLISHED"
+    },
+    {
+      "requirement_id": "REQ-0038-E",
+      "phases": [
+        "9"
+      ],
+      "directions": [
+        "A_to_B",
+        "B_to_A"
+      ],
+      "result": "PASS",
+      "e4_status": "ESTABLISHED"
+    },
+    {
+      "requirement_id": "REQ-0038-G",
+      "phases": [
+        "3",
+        "6",
+        "7",
+        "11"
+      ],
+      "directions": [
+        "A_to_B",
+        "B_to_A"
+      ],
+      "result": "PASS",
+      "e4_status": "ESTABLISHED"
+    },
+    {
+      "requirement_id": "REQ-0038-S",
+      "phases": [
+        "1",
+        "2"
+      ],
+      "directions": [
+        "A_to_B",
+        "B_to_A"
+      ],
+      "result": "PASS",
+      "e4_status": "ESTABLISHED"
+    },
+    {
+      "requirement_id": "RRF-002",
+      "phases": [
+        "5b",
+        "10"
+      ],
+      "directions": [
+        "A_to_B",
+        "B_to_A"
+      ],
+      "result": "PASS",
+      "e4_status": "ESTABLISHED"
+    },
+    {
+      "requirement_id": "RRF-003",
+      "phases": [
+        "11"
+      ],
+      "directions": [
+        "A_to_B",
+        "B_to_A"
+      ],
+      "result": "PASS",
+      "e4_status": "ESTABLISHED"
+    }
+  ],
+  "established": 10,
+  "partial": 0,
+  "not_established": 0
+}

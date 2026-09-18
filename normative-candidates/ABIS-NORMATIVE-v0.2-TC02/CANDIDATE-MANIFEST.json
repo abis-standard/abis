@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-09-18T12:20:00Z",
+  "construction_id": "ABIS-SUCCESSOR-CONSTRUCTION-M236",
+  "candidate_id": "ABIS-SUCCESSOR-CONSTRUCTION-M236",
+  "candidate_id_rule": "NOT_FOUND",
+  "candidate_id_note": "No repository authority defines successor candidate numbering. Non-promoted construction identifier used until Human Program Authority assigns normative candidate identity.",
+  "parent_candidate": "ABIS-NORMATIVE-v0.2-TC01",
+  "parent_baseline_path": "drafts/v0.2/",
+  "construction_status": "CONSTRUCTION / UNVALIDATED",
+  "not_normative": true,
+  "not_frozen": true,
+  "not_promoted": true,
+  "not_public": true,
+  "governance_authorization": "governance/M-235-HUMAN-DESIGN-PROMOTION-REVIEW.md \u2014 APPROVE_WITH_CONDITIONS",
+  "baseline_hashes": {
+    "tc01_tree_sha256": "399b328d38383f58e51b28e41b354aa9697a0f7764916f57fa0e9b37e09736ee",
+    "ivp01_tree_sha256": "311c9fc53dcfef38111ec56c7547dc9080670a2e1c2c241646a6d5aaf4a7f946",
+    "m233r_aggregate_sha256": "ab1afc5c37d636699a1f9d961cf462617b622be33cab344535541d91b6b6430e",
+    "m235_governance_sha256": "ad151c1ed2bd8afdb3df776c86956b3ba248ae957956065eeb47b4bee4acdcd4"
+  },
+  "artifacts": {
+    "normative": [
+      "CANDIDATE-NORMATIVE-DRAFT.md"
+    ],
+    "schema": [
+      "CANDIDATE-SCHEMA.json"
+    ],
+    "test_vectors": [
+      "CANDIDATE-TEST-VECTORS.json"
+    ],
+    "interoperability_design": [
+      "CANDIDATE-SLIT001R-DESIGN.md"
+    ],
+    "migration": [
+      "CANDIDATE-MIGRATION-NOTE.md"
+    ],
+    "traceability": [
+      "CANDIDATE-TRACEABILITY.json"
+    ],
+    "audit": [
+      "CANDIDATE-DIFF-AUDIT.md",
+      "BASELINE-PROTECTION-LEDGER.json"
+    ],
+    "reports": [
+      "M-236-CONSTRUCTION-REPORT.md",
+      "M-236-FINAL-REPORT.txt"
+    ]
+  },
+  "construction_hash_sha256": "8af02434197f7d92ebb75b986ce4e640721e158608468b090acf83fb18b19446",
+  "artifact_hashes": {
+    "BASELINE-PROTECTION-LEDGER.json": "458d547dd0848f1fc278c1dfb4596d2b4cadc1f1620751031b674fb30c3d372a",
+    "CANDIDATE-DIFF-AUDIT.md": "23981c78bd1dc91ea0814a20d04b0038a12fa10f3fcb73e7086c4e1ad02196b7",
+    "CANDIDATE-MANIFEST.json": "1582adbae2891762c3a41a0ac698074afd6d7f4d7edb8f7504e02eb450fef1e7",
+    "CANDIDATE-MIGRATION-NOTE.md": "8203ddec0a086c6400fccf40a018d23cd4590ffeed119fabda219433903cf11c",
+    "CANDIDATE-NORMATIVE-DRAFT.md": "7593a7d24ae899ae4b66588bc534e249bc852ae89b7421867b9b5456b4ba36b3",
+    "CANDIDATE-SCHEMA.json": "b556593927483d781455a1afd39ee9072d1155d63bcf22c52fa3c6df879b8ab0",
+    "CANDIDATE-SLIT001R-DESIGN.md": "c018bf7c30f07bf8f1e2fb091d32bcd9778a13fc5f7b8a82acb9a523157d873a",
+    "CANDIDATE-TEST-VECTORS.json": "05d0e56b8b4a43a1e6260ee5228a5a4901ed79ec0dcd3d659239a2cc81cfa755",
+    "CANDIDATE-TRACEABILITY.json": "3ea1303e2cb063dc7e978179c00d2db6a05d8f9907c617378f4506d4a996cf66",
+    "M-236-CONSTRUCTION-REPORT.md": "6c9448f267f16381820476161105c618126ea8c4bcf378223b588c4f41ba2812",
+    "M-236-FINAL-REPORT.txt": "4d3d1a45065290e997015f9b8f3e446b85729603e3ef2cb95698068548a050bb"
+  }
+}

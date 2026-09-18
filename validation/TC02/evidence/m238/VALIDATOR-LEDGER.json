@@ -1,0 +1,36 @@
+{
+  "milestone": "M-238",
+  "generated_at": "2026-09-18T11:18:01Z",
+  "validation_target_id": "ABIS-SUCCESSOR-M236-VT01",
+  "validation_target_hash": "85edfa82da4ab90c1e43669d59bed8a811d6ab6aba2ea5b03142170d529f0025",
+  "validation_package_hash": "69400ef865c1681c22c87822bfed1f35b97adbb0bedf712111aee1cfe2f6f84f",
+  "validators": [
+    {
+      "validator_id": "V1-openai",
+      "model": "gpt-4.1",
+      "provider": "OpenAI",
+      "verdict": "PASS_WITH_FINDINGS",
+      "report_path": "validation-evidence/M238/V1-openai/EVIDENCE-REPORT.md",
+      "report_sha256": "f1e744770a217561ceb5d4405df2a8b6990e4ee938f0f82d1561a1e4ca6eba18",
+      "package_hash_verified": true
+    },
+    {
+      "validator_id": "V2-anthropic",
+      "model": "claude-sonnet-4",
+      "provider": "Anthropic",
+      "verdict": "PASS_WITH_FINDINGS",
+      "report_path": "validation-evidence/M238/V2-anthropic/EVIDENCE-REPORT.md",
+      "report_sha256": "3048d74dfbf8c7c6e209377ae939cceb3272b8449dba48acd7dfd0689bbf223c",
+      "package_hash_verified": true
+    },
+    {
+      "validator_id": "V3-xai",
+      "model": "grok-3",
+      "provider": "xAI",
+      "verdict": "PASS_WITH_FINDINGS",
+      "report_path": "validation-evidence/M238/V3-xai/EVIDENCE-REPORT.md",
+      "report_sha256": "054280d74a72fd8792d2076837238c168d5e57f47aaf565580090a92917b9645",
+      "package_hash_verified": true
+    }
+  ]
+}

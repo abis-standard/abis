@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "cvf_id": "CVF-001",
+      "source_validators": [
+        "V1-openai",
+        "V2-anthropic",
+        "V3-xai"
+      ],
+      "source_finding_ids": [
+        "VF-002"
+      ],
+      "severity": "INFORMATIONAL",
+      "classification": "EVIDENCE_LIMITATION",
+      "affected_requirement": "E3 execution scope",
+      "description": "TV execution used package-bound semantic evaluator, not live Invoke/Preflight responder implementations",
+      "replication_status": "REPLICATED"
+    },
+    {
+      "cvf_id": "CVF-002",
+      "source_validators": [
+        "V1-openai",
+        "V2-anthropic",
+        "V3-xai"
+      ],
+      "source_finding_ids": [
+        "VF-002"
+      ],
+      "severity": "INFORMATIONAL",
+      "classification": "EVIDENCE_LEVEL",
+      "affected_requirement": "E4 interoperability",
+      "description": "E4 not established \u2014 validator agreement does not constitute cross-implementation interoperability",
+      "replication_status": "REPLICATED"
+    }
+  ],
+  "totals": {
+    "replicated": 2,
+    "partial": 0,
+    "isolated": 0,
+    "environment_specific": 0
+  }
+}

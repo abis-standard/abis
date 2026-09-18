@@ -1,0 +1,18 @@
+name: Release Disclosure Gate
+
+on:
+  push:
+    tags:
+      - "v*"
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  release-disclosure-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run M-229D.1 release disclosure gate
+        run: ./scripts/disclosure/run-release-disclosure-gate.sh

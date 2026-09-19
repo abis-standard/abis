@@ -25,6 +25,14 @@ Public v0.1 is a Concept & Architecture Release. This release is intended for pu
 - Reference Runtime: https://github.com/abis-standard/abis-reference-runtime
 - Validation: https://abis.coaretail.com/ja/validation
 
+### Learn · Try · Run
+
+| Stage | What | Link |
+| --- | --- | --- |
+| **Learn ABIS** | Concept / Architecture / Specification | [CONCEPT.md](CONCEPT.md) · [ARCHITECTURE.md](ARCHITECTURE.md) · [Further reading](#further-reading) |
+| **Try ABIS** | Quick Validation — no coding required | [Quick Validation](https://github.com/abis-standard/abis-reference-runtime/blob/main/QUICK-VALIDATION.md) |
+| **Run ABIS** | Reference Runtime / Developer Validation | [abis-reference-runtime](https://github.com/abis-standard/abis-reference-runtime) · [VALIDATION.md](https://github.com/abis-standard/abis-reference-runtime/blob/main/VALIDATION.md) |
+
 ---
 
 ## Normative Candidate TC02 

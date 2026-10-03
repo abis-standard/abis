@@ -54,6 +54,25 @@ See `releases/TC02/PUBLIC-MANIFEST.json` for machine-readable metadata.
 
 ---
 
+## Specification and validation evidence
+
+The **normative specification** (including **ABIS-NORMATIVE-v0.2-TC02**) defines ABIS contract and semantics. **Validation and R&D evidence** records what has been experimentally demonstrated within a stated scope — they are separate roles.
+
+**ABIS-NORMATIVE-v0.2-TC02:** **UNCHANGED** by later experimental evidence.
+
+Current **controlled L2** research evidence (experimental / R&D — not normative promotion) includes:
+
+| Topic | Status (bounded) | Public summary |
+| --- | --- | --- |
+| Multi-provider reproducibility (three provider/domain surfaces) | **ESTABLISHED_AT_L2_WITHIN_VALIDATED_SCOPE** | See validation index below |
+| Cross-provider Multi-Outcome (Duffel Test Mode + Square Sandbox, one higher-level objective) | **ESTABLISHED_AT_L2_WITHIN_VALIDATED_SCOPE** | [validation/evidence/CROSS-PROVIDER-MULTI-OUTCOME-L2.md](validation/evidence/CROSS-PROVIDER-MULTI-OUTCOME-L2.md) |
+
+Cross-provider L2 evidence does **not** imply production validation, certification, provider endorsement, or universal provider compatibility. **L3** and **real-world** multi-outcome validation are **not** established.
+
+Further validation pointers: [validation/](validation/) · [abis.coaretail.com/ja/validation](https://abis.coaretail.com/ja/validation)
+
+---
+
 ## What is ABIS?
 
 **EN:** ABIS (Agent Business Interaction Standard) is an interoperability framework designed to provide a common way to represent Business Interactions and Business Outcomes across different AI agents, protocols, and business systems.

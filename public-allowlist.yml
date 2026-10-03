@@ -28,6 +28,8 @@ allowed_paths:
   - .abis/disclosure-approval.json
   - releases/TC02/**
   - validation/TC02/**
+  - validation/README.md
+  - validation/evidence/**
   - normative-candidates/ABIS-NORMATIVE-v0.2-TC02/**
 
 # Local-only files (must NOT be committed to the public repository)

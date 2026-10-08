@@ -1,8 +1,8 @@
 {
   "schema_version": "1.1",
-  "approval_id": "be12ab5c-7c1f-4487-b5d2-8ca5e1823a83",
+  "approval_id": "97C70271-C5FC-4CE5-81C5-71D01BB50EF7",
   "binding_type": "content_tree",
-  "approved_content_hash": "9e9a131769a76e9aa05f55e5088514f0a72a56c6492ed254a6cf0f52ee5a9b39",
+  "approved_content_hash": "8eb59f0b609a79dbe96ba22cb77820362197c563c2df6066ad9508043bb85fb2",
   "status": "PASS",
   "controls_passed": [
     "M229D-003",
@@ -10,7 +10,7 @@
     "M229D-009",
     "M229D-010"
   ],
-  "issued_at": "2026-10-03T13:01:25Z",
-  "expires_at": "2026-10-10T13:01:25Z",
-  "review_context_hash": "9e9a131769a76e9aa05f55e5088514f0a72a56c6492ed254a6cf0f52ee5a9b39"
+  "issued_at": "2026-10-08T10:56:08Z",
+  "expires_at": "2026-10-15T10:56:08Z",
+  "review_context_hash": "8eb59f0b609a79dbe96ba22cb77820362197c563c2df6066ad9508043bb85fb2"
 }

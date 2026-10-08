@@ -20,6 +20,7 @@ allowed_paths:
   - assets/**
   - assets/abis-logo.png
   - .github/CONTRIBUTING.md
+  - .github/copilot-instructions.md
   - .github/workflows/disclosure-gate.yml
   - .github/workflows/release-disclosure-gate.yml
   - public-allowlist.yml

@@ -16,6 +16,27 @@
 
 Public v0.1 is a Concept & Architecture Release. This release is intended for public review and industry feedback.
 
+## At a glance
+
+**ABIS — Agent Business Interaction Standard** is an interoperability framework designed to provide a common way to represent Business Interactions and Business Outcomes across different AI agents, protocols, and business systems.
+
+**Release:** Public v0.1 — Concept & Architecture Release · **Status:** Public / Non-Normative / Open for Review
+
+**Core distinction: Execution Success ≠ Outcome Success** (this repository's terms: *Technical Success != Business Success*). A completed tool call or an HTTP 200 does not by itself mean that the intended business outcome was achieved.
+
+| Plain-language idea | ABIS public term | Where described |
+| --- | --- | --- |
+| Expected outcome | **Intended** — what was expected in business terms before or during an interaction | [TERMINOLOGY.md](TERMINOLOGY.md) |
+| Actual outcome | **Observed** — what was actually achieved in business terms after execution (the **Business Outcome**) | [TERMINOLOGY.md](TERMINOLOGY.md) · [docs/business-outcome.md](docs/business-outcome.md) |
+| Evidence | Technical signals (request accepted, HTTP 200, tool completed) are not business outcomes. ABIS does not define how to map technical signals to business outcomes. | [docs/business-outcome.md](docs/business-outcome.md) |
+| Whole-job result | **Composite Outcome** — multiple individual outcomes may relate to one broader purpose (named problem area only; Public v0.1 defines no calculation method) | [CONCEPT.md](CONCEPT.md) · [TERMINOLOGY.md](TERMINOLOGY.md) |
+
+**Where ABIS fits (comparison only).** MCP, A2A, and REST APIs are examples of protocols that may carry execution (see [docs/protocol-relationship.md](docs/protocol-relationship.md)). Agent orchestration and model-routing systems are separate layers that plan agent work and select models. ABIS is none of these. It focuses on the business meaning of interactions and their outcomes, and it does not replace other layers. Naming these layers here does not imply integration with, compatibility certification by, or endorsement from any of those projects or their maintainers.
+
+AI coding assistants working in this repository: see [.github/copilot-instructions.md](.github/copilot-instructions.md) for repository-scoped guidance.
+
+---
+
 ## Official Resources
 
 - Official Website: https://abis.coaretail.com
@@ -52,11 +73,13 @@ TC02 is a successor normative candidate addressing RI-001 (REQ-0038 preflight de
 
 See `releases/TC02/PUBLIC-MANIFEST.json` for machine-readable metadata.
 
+> **Status note (non-normative).** ABIS Public v0.1 is the non-normative framework release (Public / Non-Normative / Open for Review). ABIS-NORMATIVE-v0.2-TC02 is a formal normative candidate: FROZEN, and VALIDATED_WITH_LIMITATIONS (see [validation/TC02/LIMITATIONS.md](validation/TC02/LIMITATIONS.md)). It is not a final normative release or certification. Some files in the TC02 package carry header labels recorded before publication, during candidate construction and release staging (for example "CONSTRUCTION / UNVALIDATED", "NOT PUBLIC", "STAGED — NOT YET PUBLISHED", "NOT AUTHORIZED"). Those files have not been changed since publication. The current status of TC02 is the one stated in this section and in the **Status** line of [validation/TC02/README.md](validation/TC02/README.md).
+
 ---
 
 ## Specification and validation evidence
 
-The **normative specification** (including **ABIS-NORMATIVE-v0.2-TC02**) defines ABIS contract and semantics. **Validation and R&D evidence** records what has been experimentally demonstrated within a stated scope — they are separate roles.
+**ABIS Public v0.1** is the non-normative framework release. **ABIS-NORMATIVE-v0.2-TC02** is a formal normative candidate (frozen, [validated with limitations](validation/TC02/LIMITATIONS.md)) — not a final normative release or certification. **Validation and R&D evidence** records what has been experimentally demonstrated within a stated scope — candidate specification text and validation evidence are separate roles.
 
 **ABIS-NORMATIVE-v0.2-TC02:** **UNCHANGED** by later experimental evidence.
 
@@ -68,6 +91,19 @@ Current **controlled L2** research evidence (experimental / R&D — not normativ
 | Cross-provider Multi-Outcome (Duffel Test Mode + Square Sandbox, one higher-level objective) | **ESTABLISHED_AT_L2_WITHIN_VALIDATED_SCOPE** | [validation/evidence/CROSS-PROVIDER-MULTI-OUTCOME-L2.md](validation/evidence/CROSS-PROVIDER-MULTI-OUTCOME-L2.md) |
 
 Cross-provider L2 evidence does **not** imply production validation, certification, provider endorsement, or universal provider compatibility. **L3** and **real-world** multi-outcome validation are **not** established.
+
+### Example (non-normative): execution success vs outcome success
+
+**CASE-B** from the published [Cross-Provider Multi-Outcome L2 summary](validation/evidence/CROSS-PROVIDER-MULTI-OUTCOME-L2.md). Validation level: L2 — Sandbox / Provider-Backed. Provider surfaces in the controlled experiment: Duffel Test Mode and Square Sandbox.
+
+| Item | Result |
+| --- | --- |
+| Provider-side execution | **Successful** on both legs |
+| Travel arrangement outcome | **MATCH** |
+| Payment outcome | **MISMATCH** |
+| **Composite** | **CBX_NOT_SATISFIED** |
+
+Key observation from the summary: both provider-side executions can complete successfully while the requested business outcome as a whole is still **not** satisfied. This example is non-normative. It applies only to the stated L2 sandbox/test-mode research scope and does not imply production validation, certification, or provider endorsement.
 
 Further validation pointers: [validation/](validation/) · [abis.coaretail.com/ja/validation](https://abis.coaretail.com/ja/validation)
 
@@ -185,7 +221,7 @@ This repository is the **public concept and architecture release** for ABIS v0.1
 | Item | Status |
 | --- | --- |
 | Release | Public v0.1 — Concept & Architecture Release |
-| Normative specifications | Not included in this repository |
+| Normative specifications | No final normative release is included in this repository. The formal normative candidate ABIS-NORMATIVE-v0.2-TC02 is published in [`normative-candidates/ABIS-NORMATIVE-v0.2-TC02/`](normative-candidates/ABIS-NORMATIVE-v0.2-TC02/) |
 | Certification | Not available in v0.1 |
 | Reference implementation | Not included in this repository — see [ABIS Reference Runtime](https://github.com/abis-standard/abis-reference-runtime) |
 
